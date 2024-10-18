@@ -10,4 +10,4 @@ def verificar_site(url):
     except requests.ConnectionError:
         return f'{url} não está acessível'
 
-print(verificar_site('https://www.google.com'))
+print(verificar_site('https://www.python.org'))
