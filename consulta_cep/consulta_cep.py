@@ -42,8 +42,7 @@ def exibir_dados_cep(dados_cep):
         print(f"{chave}: {valor}")
 
 if __name__ == "__main__":
-    cep_input = "01311200"  #substitua pelo CEP desejado
-    
+    cep_input = "01311200"  #substitua pelo CEP desejado    
     try:
         resultado = consulta_cep(cep_input)
         exibir_dados_cep(resultado)
